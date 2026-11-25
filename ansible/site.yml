@@ -1,0 +1,10 @@
+---
+- name: Configure server and deploy application
+  hosts: vm
+  become: true
+
+  roles:
+    - base
+    - ssh
+    - nginx
+    - app

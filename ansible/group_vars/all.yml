@@ -1,0 +1,6 @@
+---
+app_image: "ghcr.io/ilggswaggalll/devops-ci-app"
+app_tag: "1912d9533c2d2424b4c50eb4506440e06701ec7e"
+app_container_name: "devops-ci-app"
+app_host_port: 5000
+app_internal_port: 5000
